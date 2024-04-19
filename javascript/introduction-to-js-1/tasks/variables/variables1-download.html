@@ -28,15 +28,28 @@
   <script>
     // Add your code here
 
-    // Don't edit the code below here!
+    // Declare una variable llamada myName
+    let myName;
+    // Inicia myName con un valor adecuado en una línea separada
+    myName = "John Doe";
+    // Declare una variable llamada myAge e inicialízala con un valor, en la misma línea
+    let myAge = 30;
 
+
+    // Seleccione el elemento HTML con la clase 'preview' y lo almacena en la variable section
     const section = document.querySelector('section');
 
+    // Cree un elemento 'p' para mostrar el nombre y lo almacena en la variable para1
     const para1 = document.createElement('p');
+    // Asigne el contenido de myName al elemento 'p' creado
     para1.textContent = myName;
+    // Cree un elemento 'p' para mostrar la edad y lo almacena en la variable para2
     const para2 = document.createElement('p');
+    // Asigne el contenido de myAge al elemento 'p' creado
     para2.textContent = myAge;
+    // Agrege el elemento 'p' que muestra el nombre al elemento con la clase 'preview'
     section.appendChild(para1);
+    // Agrege el elemento 'p' que muestra la edad al elemento con la clase 'preview'
     section.appendChild(para2);
   </script>
 
